@@ -2,6 +2,8 @@
 
 This document describes the Valet Key Pattern example from the guide [Cloud Design Patterns](http://aka.ms/Cloud-Design-Patterns).
 
+This version has been modified to use a Web API instead of the Cloud Service in the original sample. It also contains a DownloadBlob method in the client, to retrieve the uploaded blob from the Azure Storage, hence implementing the actual Valet Key pattern.
+
 ## System Requirements
 
 * Microsoft .NET Framework version 4.5
